@@ -48,6 +48,6 @@ Pod::Spec.new do |s|
    s.tvos.preserve_paths      = 'lib/libcrypto-tvOS.a', 'lib/libssl-tvOS.a'
    s.tvos.vendored_libraries  = 'lib/libcrypto-tvOS.a', 'lib/libssl-tvOS.a'
 
-  s.libraries = 'ssl', 'crypto'
+# s.libraries = 'ssl', 'crypto'
   s.requires_arc = false
 end

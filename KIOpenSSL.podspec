@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
    s.tvos.source_files        = 'include/openssl/**/*.h'
    s.tvos.public_header_files = 'include/openssl/**/*.h'
    s.tvos.header_dir          = 'openssl'
-   s.tvos.preserve_paths      = 'lib/libcrypto.a', 'lib/libssl.a'
+   s.tvos.preserve_paths      = 'lib/libcrypto-tvOS.a', 'lib/libssl-tvOS.a'
    s.tvos.vendored_libraries  = 'lib/libcrypto-tvOS.a', 'lib/libssl-tvOS.a'
 
   s.libraries = 'ssl', 'crypto'

@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
                      'Tim Hudson' => 'tjh@cryptsoft.com',
                      'Justin Plouffe' => 'plouffe.justin@gmail.com'}
   
-  s.ios.platform            = :ios, '6.0'
-  s.ios.deployment_target   = '6.0'
+  s.ios.platform            = :ios, '8.0'
+  s.ios.deployment_target   = '8.0'
   s.ios.source_files        = 'include/openssl/**/*.h'
   s.ios.public_header_files = 'include/openssl/**/*.h'
   s.ios.header_dir          = 'openssl'
